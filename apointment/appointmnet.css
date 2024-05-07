@@ -1,0 +1,537 @@
+.header_logo_brandname{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #f9f9f9; /* light-colored background */
+    padding-bottom:0px;
+}
+
+.brand_logo{
+    margin-top: 16px;
+    margin-left: 150px;
+}
+
+.brand_name{
+    padding-top: 16px;
+    margin-right: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #003a68;
+}
+
+.nav-bar {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-style: inherit;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ 
+.nav-bar li {
+    margin-right: 20px;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+}
+  
+.nav-link:hover {
+    color: blue;
+}
+
+.appointment-cards{
+    background-color: #f9f9f9;
+}
+
+.cards-set1{
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5em;
+    padding: 2em ;
+}
+
+.card1{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card1-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card1-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card1-button:hover {
+    background: #008168;
+}
+  
+.card1-button:active {
+    background: #006e58;
+ }
+  
+.card1-button-text,
+.card1-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card1-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+
+.card2{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card2-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card2-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card2-button:hover {
+    background: #008168;
+}
+  
+.card2-button:active {
+    background: #006e58;
+ }
+  
+.card2-button-text,
+.card2-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card2-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+
+.card3{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card3-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card3-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card3-button:hover {
+    background: #008168;
+}
+  
+.card3-button:active {
+    background: #006e58;
+ }
+  
+.card3-button-text,
+.card3-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card3-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.cards-set2{
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5em;
+    padding: 2em ;
+}
+
+.card4{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card4-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card4-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card4-button:hover {
+    background: #008168;
+}
+  
+.card4-button:active {
+    background: #006e58;
+ }
+  
+.card4-button-text,
+.card4-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card4-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+
+.card5{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card5-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card5-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card5-button:hover {
+    background: #008168;
+}
+  
+.card5-button:active {
+    background: #006e58;
+ }
+  
+.card5-button-text,
+.card5-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card5-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.card6{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card6-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card6-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card6-button:hover {
+    background: #008168;
+}
+  
+.card6-button:active {
+    background: #006e58;
+ }
+  
+.card6-button-text,
+.card6-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card6-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+
+.cards-set3{
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5em;
+    padding: 2em ;
+}
+
+.card7{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card7-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card7-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card7-button:hover {
+    background: #008168;
+}
+  
+.card7-button:active {
+    background: #006e58;
+ }
+  
+.card7-button-text,
+.card7-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card7-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+
+.card8{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card8-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card8-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card8-button:hover {
+    background: #008168;
+}
+  
+.card8-button:active {
+    background: #006e58;
+ }
+  
+.card8-button-text,
+.card8-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card8-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.card9{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 9px;
+}
+
+.card9-time{
+    font-family: sans-serif;
+    color: #003a68;
+    font-weight: 100;
+}
+
+.card9-button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #4C8577;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+  .card9-button:hover {
+    background: #008168;
+}
+  
+.card9-button:active {
+    background: #006e58;
+ }
+  
+.card9-button-text,
+.card9-button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+  
+.card9-button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+  
